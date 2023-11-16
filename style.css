@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    margin: 0;
+    font-family: 'open_sansregular';
+}
+
+#header{
+    width: 100%;
+    float: left;
+}
+.header_top{
+    background: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    height: 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.headertop_left{
+    width: 40%;
+    float: left;
+    font-size: 21px;
+    margin-left: 96px;
+    margin-top: 4px;
+}
+.headertop_left a{
+    text-decoration: none;
+}
+.headertop_right{
+    float: right;
+    font-size: 14px;
+    margin: 0;
+    
+}
+.top_right_links{
+    text-decoration:none;
+    float: left;
+    padding: 7px;
+    color: rgb(27,27,27);
+    border-right: 1px solid #ddd;
+}
+.size_change a{
+    float: left;
+    text-decoration: none;
+    color: rgb(27,27,27);
+    padding: 7px;
+}
+.color_change a{
+    text-decoration: none;
+    color: rgb(27,27,27);
+    float: left;    
+    background: #ffff;
+    border-right: 1px solid #ddd;
+    padding: 7px 4px 6px;
+}
+.color_change a.bg_black{
+    background: #000;
+    color: #ffff;
+}
+.change_lang{
+    margin-right: 100px;
+    float: left;
+    background: orange;
+    color: #ffff;
+    line-height: 29px;
+    font-size: 12px;
+    padding: 0px 6px 0px 5px;
+}
+.header_middle{
+    float: left;
+    width: 100%;
+}
+.wrapper{
+    max-width: 1180px;
+    display: block;
+    /*margin: 0.4% 6.3% 0.4% 6.3%;*/
+    margin-top: 1%;
+}
+.logo{
+    
+}
+.header_middle .wrapper nav{
+    float: right;
+    width: auto;
+    margin: 4px 0 0;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+}
+.header_middle .wrapper nav ul li{
+    float: left;
+    display:inline-block;   
+    min-height: 92px; 
+}
+nav a {
+    float: left;
+    text-align: center;
+    width: 125px;
+    min-height: 92px;
+    color: #fff;
+}
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: rgb(27,27,27);
+}
+.header_middle .wrapper nav ul li img {
+    background: url(images/naviconn.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+    padding: 8px 6px 10px 8px;
+    transition: background 0.7s ease 0s;
+}
+nav span {
+    color: #828282;
+    float: left;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: 5px 0 0;
+    text-transform: uppercase;
+    width: 100%;
+}
